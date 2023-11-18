@@ -19,7 +19,7 @@ jobs:
         run: cmd /c show.bat
 
       - name: Time test
-        run: ping /n 1 /w 10000 localhost >nul
+        run: powershell Start-Sleep -Seconds 10
         
       - name: Time Counter
         run: python time.py
