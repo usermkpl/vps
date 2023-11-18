@@ -20,31 +20,40 @@ jobs:
 
       - name: Time Counter
         run: python time.py
-
+        timeout-minutes: 30
+        
       - name: Time Counter
         run: python time.py
-
+        timeout-minutes: 30
+        
       - name: Time Counter
         run: python time.py
-
+        timeout-minutes: 30
+        
       - name: Time Counter
         run: python time.py
-
+        timeout-minutes: 30
+        
       - name: Time Counter
         run: python time.py
-
+        timeout-minutes: 30
+        
       - name: Time Counter
         run: python time.py
-
+        timeout-minutes: 30
+        
       - name: Time Counter
         run: python time.py
-
+        timeout-minutes: 30
+        
       - name: Time Counter
         run: python time.py
-
+        timeout-minutes: 30
+        
       - name: Time Counter
         run: python time.py
-
+        timeout-minutes: 30
+        
       - name: Time Counter
         run: python time.py
 
