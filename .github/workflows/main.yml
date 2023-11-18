@@ -19,7 +19,7 @@ jobs:
         run: cmd /c show.bat
 
       - name: Time test
-        run: timeout /t 10
+        run: ping /n 1 /w 10000 localhost >nul
         
       - name: Time Counter
         run: python time.py
