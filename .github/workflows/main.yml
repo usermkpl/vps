@@ -18,11 +18,8 @@ jobs:
       - name: Log In To AnyDesk
         run: cmd /c show.bat
 
-        name: timeout test
+      - name: Time test
         run: timeout /t 10
-
-      - name: Time Counter
-        run: python time.py
         
       - name: Time Counter
         run: python time.py
